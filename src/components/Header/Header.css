@@ -1,0 +1,18 @@
+.header {
+  height: 8em;
+  max-width: 1100px;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 6em;
+  }
+}
+.header__logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  vertical-align: middle; /* Align the image vertically */
+}
